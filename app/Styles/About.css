@@ -10,10 +10,14 @@
 /* .cert {
   transform: scaleX(-1);
 } */
+ .cert{
+  height: 30%;
 
+ }
 .hat-container,
 .cert-container {
   width: 30%;
+  height: 30%;
   padding: 3vh;
 }
 

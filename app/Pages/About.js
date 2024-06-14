@@ -102,7 +102,7 @@ export default function About() {
               }}
               className="edu-text"
             >
-              EDUCATIONNNNNN
+              EDUCATION
             </motion.h1>
             <EducationDetails
               level={"TERTIARY"}
