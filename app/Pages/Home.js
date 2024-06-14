@@ -3,8 +3,8 @@ import './../Styles/Home.css'
 import avatar from "./../Assets/avatar.svg";
 import bg from "./../Assets/abstract.png";
 import { Email } from "@mui/icons-material";
-import IconsDisplay from "../components/IconsDisplay";
-import LineDivide from "../components/LineDivide";
+import IconsDisplay from "./../Components/IconsDisplay";
+import LineDivide from "./../Components/LineDivide";
 import Image from "next/image";
 
 
