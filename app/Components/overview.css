@@ -32,11 +32,13 @@
 }
 .over-box {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
   margin-top: 5%;
+  gap: 10px;
 }
 .box {
   border: 2px solid red;
@@ -49,6 +51,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 1px 1px 10px 0.1px rgba(173, 2, 2, 0.292);
 }
 
 .dev {
