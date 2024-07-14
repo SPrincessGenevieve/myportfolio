@@ -1,0 +1,103 @@
+@font-face {
+    font-family: Oswald-Bold;
+    src: url("./../Assets/fonts/Oswald-Bold.ttf");
+}
+
+@font-face {
+    font-family: LexendBold;
+    src: url("./../Assets/fonts/LexendBold.ttf");
+}
+
+
+.project-cont {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 15%;
+  }
+  
+  .project-l1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e66464;
+    text-align: left;
+  }
+
+.box-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.line-division{
+    margin-top: -10px;
+    width: 7px;
+    height: 500px;
+    background-color: #e66464;
+    border-radius: 40px;
+    background: linear-gradient(#e66464, #e66464c4, #e6646407);
+}
+
+.desc-cont-pro, .date-cont-pro{
+    width: 25%;
+    height:auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+}
+.desc-cont-pro{
+    background: linear-gradient(to right, #ed8f8f78,  #ffeded28);
+    margin-right: 5%;
+    padding: 5px;
+    padding-bottom: 15px;
+    height: auto;
+}
+
+.date-cont-pro{
+    margin-left: 5%;
+}
+
+.image-pro{
+    width: 90%;
+    height: auto;
+    margin-top: 5%;
+}
+.title-project{
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+    font-family: LexendBold;
+    font-size: 3vh;
+    margin: 0;
+    color: #E66464;
+}
+
+.subtitle-pro{
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E66464;
+    margin: 0;
+    margin-top: 5%;
+
+}
+
+.minisub-pro{
+    color: #E66464;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.detail-pro{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+.language{
+    margin-top: 5%;
+    margin-right: 10px;
+}
