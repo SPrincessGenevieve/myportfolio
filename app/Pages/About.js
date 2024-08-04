@@ -61,11 +61,11 @@ export default function About() {
   };
 
   return (
-    <div className="about-cont">
+    <div className="about-cont edu-cert">
       <div>
         <Overview></Overview>
       </div>
-      <div className="about-container">
+      <div className="about-container upper">
         <motion.div
           variants={hatVariant}
           initial="offscreen"
@@ -123,7 +123,7 @@ export default function About() {
         </div>
       </div>
 
-      <div className="about-container">
+      <div className="about-container lower">
         <motion.div
           variants={certVariant}
           initial="offscreen"
@@ -135,7 +135,7 @@ export default function About() {
           <Image className="cert" alt="cert" src={cert}></Image>
         </motion.div>
 
-        <div className="education-container ">
+        <div className="education-container certificate">
           <motion.div
             initial={{ opacity: 0, translateY: 100 }}
             whileInView={{ opacity: 1, translateY: 0 }}
@@ -158,10 +158,30 @@ export default function About() {
                 type: "spring",
                 duration: 1,
               }}
-              className="edu-text"
+              className="edu-text cer-text"
             >
               CERTIFICATES
             </motion.h1>
+            <EducationDetails
+              level={"BEST IN CAPSTONE AND RESEARCH PROJECT"}
+              title={"WEB AND MOBILE APPLICATION FOR E-TICKETING CITATION"}
+              year={"2023-2024"}
+              course={"Gabi ng Parangal (Awards Night)"}
+              school={
+                "University of Science and Technology of Southern Philippines"
+              }
+              campus={"CDO Campus (USTP CDO)"}
+            />
+            <EducationDetails
+              level={"2ND RUNNER UP for BEST CAPSTONE POSTER"}
+              title={"WEB AND MOBILE APPLICATION FOR E-TICKETING CITATION"}
+              year={"2023-2024"}
+              course={"ITnnovation Expo 2024 of the Society if Information Technology Enthusiast - USTP CDO"}
+              school={
+                "University of Science and Technology of Southern Philippines"
+              }
+              campus={"CDO Campus (USTP CDO)"}
+            />
             <EducationDetails
               level={"CCNAv7: Switching, Routing, and Wireless Essentials"}
               year={"2022-2023"}
@@ -180,6 +200,7 @@ export default function About() {
               }
               campus={"CDO Campus (USTP CDO)"}
             />
+            
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, Variants } from "framer-motion";
-import './educationDetails.css'
+import './Styles/educationDetails.css'
 
 export default function EducationDetails({
   level,
@@ -8,6 +8,7 @@ export default function EducationDetails({
   course,
   school,
   campus,
+  title,
   initial,
   whileInView,
   transition,
@@ -25,6 +26,7 @@ export default function EducationDetails({
         className="details"
       >
         <p className="details-2">{year}</p>
+        <p className="details-2 title">{title}</p>
         <p className="details-2">{course}</p>
         <p className="details-2">{school}</p>
         <p className="details-2">{campus}</p>

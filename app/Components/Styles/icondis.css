@@ -10,9 +10,20 @@
   transition: 0.2s ease-in-out;
   animation: floatingAnimate 2s infinite ease-in-out;
   height: 10%;
-
+  fill: black;
+}
+.django{
+  width: 6%;
 }
 
+.frappe{
+  width: 6%;
+  margin-left: 1%;
+}
+
+.js{
+  width: 7%;
+}
 .icon:hover {
   transform: translateY(10px);
   transition: transform 0.2s ease-in-out;

@@ -22,11 +22,10 @@ export default function Home() {
           <div className="opening">
             <h1 className="top-text">Hi! I am Princess</h1>
             <p className="bottom-text">
-              I am an aspiring frontend web developer with 2 years experience
-              with React.
+              I&apos;m a recent IT graduate specializing in front-end web development, passionate about crafting engaging and dynamic user interfaces.  Let&apos;s Connect!
             </p>
             <p className="bottom-text-2">
-              Reach out if you would like to learn more.
+             
             </p>
             <div className="contact-btn">
               <button className="contact-me-btn">
