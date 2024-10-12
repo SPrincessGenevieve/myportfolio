@@ -23,14 +23,6 @@
       "details": "Visit my portfolio website to explore a curated collection of my work, showcasing a blend of web development projects and captivating graphic design pieces. Get a glimpse of my skills, creativity, and dedication to delivering impactful digital solutions.",
       "language": ["#react", "#css", "#django"],
       "date": "JANUARY 2023 – PRESENT"
-    },
-    {
-      "title": "MissArt",
-      "client": "MissArt Commissioning Website",
-      "role": "React.js Developer",
-      "details": "An online platform facilitates clients in booking MissArt artists while providing administrators with the capability to post updates on recent art projects for seamless artist-client interactions and project management.",
-      "language": ["#react", "#css", "#django"],
-      "date": "SEPTEMBER 2022 – JANUARY 2023"
     }
     
   ]

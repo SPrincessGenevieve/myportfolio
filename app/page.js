@@ -27,6 +27,7 @@ export default function App() {
   const certOffset = windowWidth <= 1206 ? 4.2 : 3.5;
   const expOffset =   windowWidth <= 801 ? 6.5 :  windowWidth <= 1206 ? 6 : 5;
   const skillOffset =  windowWidth <= 801 ? 8 : windowWidth <= 915 ? 7.5 :  windowWidth <= 1206 ? 7 : 6;
+  const projOffset =   windowWidth <= 816 ? 6 : 7;
 
   const pageOffset = windowWidth <= 376 ? 13 : windowWidth <= 1245 ? 12 : 10;
 
@@ -123,7 +124,7 @@ export default function App() {
             <Skills></Skills>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={7}>
+          <ParallaxLayer offset={projOffset}>
             <Project></Project>
           </ParallaxLayer>
 
