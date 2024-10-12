@@ -65,10 +65,17 @@
 .graph{
   height: 45%;
 }
+
 .over-title {
   font-family: Arial, Helvetica, sans-serif;
   color: #e66464;
 }
+
+.skill-cont{
+  margin-top: 27%;
+  margin-bottom: 25%;
+}
+
 @media (max-width: 1396px) {
   .about-me, .overview-l2{
     width: 100%;
@@ -140,9 +147,6 @@
   .over-title{
     text-align: center;
   }
-  .overview-cont{
-    margin-top: -45%;
-  }
  }
 
  @media (max-width: 414px) {
@@ -151,9 +155,6 @@
   }
   .over-title{
     text-align: center;
-  }
-  .overview-cont{
-    margin-top: -45%;
   }
  }
  
@@ -164,36 +165,39 @@
   .over-title{
     text-align: center;
   }
-  .overview-cont{
-    margin-top: -50%;
-  }
  }
 
-@media (max-width: 377px) {
+
+
+@media (max-width: 400px) {
   .about-me{
     width: 100%;
   }
   .over-title{
     text-align: center;
   }
+  .overview-cont{
+    margin-top: 60%;
+  }
  }
 
  @media (max-width: 377px) {
-  .overview-cont{
-    margin-top: 10%;
-  }
+  
  }
  @media (max-width: 360px) {
   .overview-cont{
-    margin-top: -10%;
   }
  }
-@media (max-width: 344px) {
+@media (min-width: 300px)and (max-width: 400px) {
   .box{
-   width: 30vh;
-   height: 30vh;
+   width: 25vh;
+   height: 25vh;
   }
-  .overview-cont{
-   margin-top: -40%;
+ }
+
+ @media (min-width: 50px)and (max-width: 299px) {
+  .box{
+   width: 22vh;
+   height: 22vh;
   }
  }

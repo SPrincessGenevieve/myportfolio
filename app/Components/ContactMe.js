@@ -7,9 +7,9 @@ import LI from './../Assets/LinkedIn.png';
 import Link from "next/link";
 import Send from './../Assets/Line.png'
 
-export default function ContactMe() {
+export default function ContactMe({ref}) {
   return (
-    <div className="cont-cont">
+    <div className="cont-cont" ref={ref}>
       <div className="contactMe-l1">
         <h2 className="intro-over">FEEL FREE TO REACH OUT</h2>
         <h1 className="over-contact">CONTACT ME</h1>

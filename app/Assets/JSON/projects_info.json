@@ -1,14 +1,6 @@
 {
   "projects": [
     {
-      "title": "CDORental",
-      "client": "",
-      "role": "React.js Developer",
-      "details": "An online platform ensures seamless communication between lessors and lessees, streamlining interactions with a user-friendly interface and a range of tools. We simplify the leasing process by facilitating viewings, negotiations, and payments, enhancing the experience for both property owners and tenants.",
-      "language": ["#react", "#css", "#django"],
-      "date": "MAY 2024 – ONGOING"
-    },
-    {
       "title": "eTCMF - Web",
       "client": "Roads and Traffic Administration (RTA)",
       "mini-title": "React.js Developer",

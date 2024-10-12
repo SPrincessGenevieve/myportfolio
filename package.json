@@ -17,6 +17,8 @@
     "@mui/material": "^5.15.20",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "@react-spring/parallax": "^9.7.3",
+    "@react-three/drei": "^9.114.3",
+    "@react-three/fiber": "^8.17.10",
     "autoprefixer": "^10.4.20",
     "framer-motion": "^11.2.10",
     "next": "^14.2.4",
@@ -25,7 +27,8 @@
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.3.0",
     "react-visibility-sensor": "^5.1.1",
-    "styled-components": "^6.1.11"
+    "styled-components": "^6.1.11",
+    "three": "^0.169.0"
   },
   "devDependencies": {
     "eslint": "^8",

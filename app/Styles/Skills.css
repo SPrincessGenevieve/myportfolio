@@ -1,0 +1,96 @@
+.skills-cont {
+    
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+.icon-skill{
+    width: 30px;
+    height: 35px;
+}
+.skill-l1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e66464;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.intro-skill{
+    margin: 0;
+    font-size: 3vh;
+    font-weight: lighter;
+}
+
+.skill{
+    margin: 0;
+    font-weight: 900;
+    font-size: 5vh;
+}
+
+.skill-cont-bar {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    position: relative;
+    overflow: hidden;   /* Prevent overflow of animated content */
+}
+
+.skill-name {
+    /* background-color: red; */
+    /* border: 3px solid #e664649e;
+    border-bottom: 3px solid #e664649e; */
+    box-shadow: 0px 0px 130px 130px red;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    font-size: 2vh;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.skill-title{
+    font-weight: bold;
+    color: #e66464;
+    font-size: 70%;
+    margin-left: 5px;
+}
+
+.skill-percent {
+    background-color: #ffaeae65;
+    /* background-color: #319d1b; */
+    height: 100%;
+    width: 0%; /* Start width at 0 for animation */
+    transition: width 2s; /* Smooth transition for width change */
+}
+
+.percent {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: end;
+    justify-content: end;
+}
+
+.percent-title{
+    font-weight: bold;
+    width: 100%;
+    text-align: right;
+}
+
+/* Add a class that will be added via JavaScript when in view */
+.skill-active {
+    width: 100%; /* Target width for the animation */
+}
+
+@media (max-width: 1340px) {
+    .skill-title{
+        display: none;
+    }
+    .skill-name{
+        width: auto;
+    }
+  }
+

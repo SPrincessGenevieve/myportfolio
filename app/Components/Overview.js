@@ -7,6 +7,7 @@ import Image from "next/image";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import {fadeIn, textVariant} from './utils/motion'
+import Skills from "../Pages/Skills";
 
 export default function Overview() {
   return (
@@ -48,6 +49,8 @@ export default function Overview() {
         </Tilt>
         
       </div>
+
+      
     </div>
   );
 }

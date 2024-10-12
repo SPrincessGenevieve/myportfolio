@@ -6,11 +6,13 @@ import { Email } from "@mui/icons-material";
 import IconsDisplay from "./../Components/IconsDisplay";
 import LineDivide from "./../Components/LineDivide";
 import Image from "next/image";
+import Popup from "../Components/Popup";
 
 
-export default function Home() {
+export default function Home({onClick}) {
   return (
     <div className="main-home">
+      
       <Image className="bg" src={bg} alt="bg"></Image>
       <div className="home-cont">
         <div className="avatar-container">
@@ -28,7 +30,7 @@ export default function Home() {
              
             </p>
             <div className="contact-btn">
-              <button className="contact-me-btn">
+              <button onClick={onClick} className="contact-me-btn">
                 CONTACT ME <Email style={{ marginLeft: 20 }}></Email>
               </button>
             </div>

@@ -1,0 +1,23 @@
+{
+    "experience": [
+      {
+        "experience_title": "Develop, maintain, and optimize websites using HTML, CSS, React, JavaScript, and Python."
+      },
+      {
+        "experience_title": "Integrate back-end services, ensuring data flow between front-end and databases."
+      },
+      {
+        "experience_title": "Write efficient, well-designed, and testable code following best practices."
+      },
+      {
+        "experience_title": "Collaborate with designers to match visual designs with functionality."
+      },
+      {
+        "experience_title": "Scale and expand website features based on evolving user needs."
+      }
+      ,{
+        "experience_title": "Stay current with industry trends and implement new technologies as appropriate."
+      }
+    ]
+  }
+  

@@ -1,0 +1,44 @@
+{
+  "skills": [
+    {
+      "skill_name": "REACT JS",
+      "percent": 95,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/882c4c81c7af541236ca8de9122cf0ea97f54c32/app/Assets/react.svg"
+    },
+    {
+      "skill_name": "REACT NATIVE",
+      "percent": 95,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/882c4c81c7af541236ca8de9122cf0ea97f54c32/app/Assets/react.svg"
+    },
+    {
+      "skill_name": "FIGMA",
+      "percent": 95,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/refs/heads/main/app/Assets/Figma-logo.svg.png"
+    },
+    {
+      "skill_name": "JAVASCRIPT",
+      "percent": 95,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/882c4c81c7af541236ca8de9122cf0ea97f54c32/app/Assets/javascript-1.svg"
+    },
+    {
+      "skill_name": "FRAPPE",
+      "percent": 85,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/882c4c81c7af541236ca8de9122cf0ea97f54c32/app/Assets/frappe-icon.svg"
+    },
+    {
+      "skill_name": "PYTHON",
+      "percent": 85,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/refs/heads/main/app/Assets/python.png"
+    },
+    {
+      "skill_name": "DJANGO",
+      "percent": 80,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/882c4c81c7af541236ca8de9122cf0ea97f54c32/app/Assets/django.svg"
+    },
+    {
+      "skill_name": "MySQL",
+      "percent": 75,
+      "icon": "https://raw.githubusercontent.com/SPrincessGenevieve/myportfolio/882c4c81c7af541236ca8de9122cf0ea97f54c32/app/Assets/mysql.svg"
+    }
+  ]
+}

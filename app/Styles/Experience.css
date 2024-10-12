@@ -1,0 +1,87 @@
+.exp-cont {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .exp-l1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e66464;
+    text-align: left;
+    margin-bottom: 5%;
+}
+
+.exp{
+  margin: 0;
+  font-weight: 900;
+  font-size: 5vh;
+}
+
+.inner-cont-exp{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container{
+  width: 40%;
+}
+.wela-data-cont{
+  width: 60%;
+  height: auto;
+}
+
+.Lady{
+  width: 100%;
+  height: auto
+}
+
+.exp-title{
+    margin: 0;
+    font-size: 3vh;
+    font-weight: bold;
+    padding: 0;
+    color: #e66464;
+}
+
+.exp-sub{
+  margin: 0;
+  font-size: 2vh;
+  padding: 0;
+  color: #e66464;
+}
+
+.exp-date{
+  margin: 0;
+  font-size: 2vh;
+  padding: 0;
+  color: #e66464;
+}
+
+.exp-item{
+  display: flex;
+  align-items: center;
+  font-size: 4vh;
+}
+.dot-img{
+  width: 2vh;
+  height: 3.5vh;
+}
+.exp-item-details{
+  font-size: 1.5vh;
+}
+.exp-detatils{
+  margin-top: 5%;
+}
+
+@media (max-width: 1085px) {
+  .inner-cont-exp{
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-container{
+    width: 70%;
+  }
+  .wela-data-cont{
+    width: 100%;
+  }
+}

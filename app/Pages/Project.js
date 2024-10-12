@@ -10,6 +10,7 @@ import Image from "next/image";
 import next from "./../Assets/next.gif";
 import { motion } from "framer-motion";
 import LineDivide from "../Components/LineDivide";
+import LineDivideH from "../Components/LineDivideH";
 
 const imageMapping = {
   "eTCMF - Web": etcmf,
@@ -31,6 +32,7 @@ export default function Project() {
       <div className="element-cont">
         <div className="image-box">
           {projects.projects.map((project, index) => (
+            
             <motion.div
               initial={{ opacity: 0, translateY: 100 }}
               whileInView={{ opacity: 1, translateY: 0 }}
@@ -43,6 +45,19 @@ export default function Project() {
               className="box-cont"
               key={index}
             >
+              <motion.div
+                initial={{ opacity: 0, translateX: 100 }}
+                whileInView={{ opacity: 1, translateX: 0 }}
+                transition={{
+                  bounce: 0.4,
+                  type: "spring",
+                  duration: 0.5,
+                  delay: 0.5,
+                }}
+                className="date-cont-pro"
+              >
+                <LineDivideH title={project.date}></LineDivideH>
+              </motion.div>
               <div className="desc-cont-pro">
                 <div className="image-pro">
                   <Image
@@ -61,31 +76,7 @@ export default function Project() {
                   <p className="language">{project.language.join(", ")}</p>
                 </div>
               </div>
-              <div className="line-line" >
-                <LineDivide></LineDivide>
-              </div>
-              <motion.div
-                initial={{ opacity: 0, translateX: 100 }}
-                whileInView={{ opacity: 1, translateX: 0 }}
-                transition={{
-                  bounce: 0.4,
-                  type: "spring",
-                  duration: 0.5,
-                  delay: 0.5,
-                }}
-                className="date-cont-pro"
-              >
-                <p
-                  style={{
-                    width: "100%",
-                    fontFamily: "Arial",
-                    fontWeight: 700,
-                  }}
-                  className=""
-                >
-                  {project.date}
-                </p>
-              </motion.div>
+              
             </motion.div>
           ))}
         </div>

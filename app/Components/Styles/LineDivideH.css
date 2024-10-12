@@ -1,0 +1,33 @@
+    
+.line-divide-h {
+  width: 100%;
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+.circle-h {
+  background-color: #e66464;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50px;
+}
+.line-cont-h{
+  width: 80%;
+  height: 3vh;
+  background: linear-gradient(to right, #e66464, #e66464, #e66464, #e6646473, #e6646400);  
+  position: absolute;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  padding-left: 5vh;
+}
+.line-title{
+  color: white;
+  font-size: 2vh;
+}
+
+@media (max-width: 822px) {
+  .line-title{
+    font-size: 70%;
+  }
+}

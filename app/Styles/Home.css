@@ -8,6 +8,12 @@
     z-index: -5;
     animation: fadeAnimation 2s ease-in-out;
   }
+
+  .contact-btn{
+    position: relative;
+    z-index: 999;
+  }
+
   .home-cont {
     height: 70vh;
     align-items: center;
@@ -184,9 +190,11 @@
     }
     .right-container {
       width: 90%;
+      display: flex;
     }
     .top-text {
       font-size: 40px;
+      margin-top: 15vh;
     }
   
     .line-divide {
@@ -203,8 +211,8 @@
       font-size: 17px;
     }
     .opening{
-      position: absolute;
       /* top: -25%; */
+      margin-top: 0;
     }
   }
 
@@ -224,8 +232,14 @@
     }
   }
 
-  @media (max-width: 344px) {
-    .opening{
-      /* margin-top: -50%; */
-    }
+@media (max-width: 400px) and (min-width: 200px) {
+  .top-text {
+    margin-top: 90%;
   }
+}
+
+@media (max-width: 360px){
+  .top-text {
+    margin-top: 70%;
+  }
+}
