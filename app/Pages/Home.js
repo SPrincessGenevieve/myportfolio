@@ -15,20 +15,22 @@ export default function Home({onClick}) {
       
       <Image className="bg" src={bg} alt="bg"></Image>
       <div className="home-cont">
+
         <div className="avatar-container">
           <Image src={avatar} className="avatar" alt="avatar"></Image>
         </div>
 
         <div className="right-container">
-          <LineDivide></LineDivide>
+          <div className="line-cont-home">
+            <LineDivide></LineDivide>
+          </div>
           <div className="opening">
-            <h1 className="top-text">Hi! I am Princess</h1>
-            <p className="bottom-text">
-              I&apos;m a recent IT graduate specializing in front-end web development, passionate about crafting engaging and dynamic user interfaces.  Let&apos;s Connect!
-            </p>
-            <p className="bottom-text-2">
-             
-            </p>
+              <h1 className="top-text">Hi! I am Princess</h1>
+            
+              <p className="bottom-text">
+                I&apos;m a recent IT graduate specializing in Full Stack Development, with a strong focus on Front-End Development. I'm passionate about crafting engaging and dynamic user interfaces. Let&apos;s Connect!
+              </p>
+              
             <div className="contact-btn">
               <button onClick={onClick} className="contact-me-btn">
                 CONTACT ME <Email style={{ marginLeft: 20 }}></Email>
@@ -39,6 +41,7 @@ export default function Home({onClick}) {
             </div>
           </div>
         </div>
+
       </div>
     </div>
   );

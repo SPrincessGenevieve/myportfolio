@@ -10,6 +10,9 @@ import mySQL from './../Assets/mysql.svg'
 import figma from './../Assets/figma-logo-512.webp'
 import django from './../Assets/django.svg'
 import frappe from './../Assets/frappe-icon.svg'
+import photoshop from './../Assets/photoshop.png'
+import MUI from './../Assets/MUI.png'
+import Next from './../Assets/Next.svg'
 
 export default function IconsDisplay() {
   return (
@@ -23,6 +26,9 @@ export default function IconsDisplay() {
       <Image className="icon" src={figma} alt="figma"></Image>
       <Image className="icon django" src={django} alt="django"></Image>
       <Image className="icon frappe" src={frappe} alt="frappe"></Image>
+      <Image className="icon photoshop" src={photoshop} alt="photoshop"></Image>
+      <Image className="icon Next" src={Next} alt="Next"></Image>
+      <Image className="icon MUI" src={MUI} alt="MUI"></Image>
     </div>
   );
 }

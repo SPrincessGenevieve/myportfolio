@@ -30,21 +30,21 @@ export default function Overview() {
           <div
             className="box 1">
             <Image className="dev css" src={WebDev} alt=""></Image>
-            <h2 className="over-title">WEB DEVELOPER</h2>
+            <h2 className="over-title">FRONT-END DEVELOPER</h2>
           </div>
         </Tilt>
         
         <Tilt>
           <div className="box 2">
             <Image className="dev react" src={ReactDev} alt=""></Image>
-            <h2 className="over-title">REACT DEVELOPER</h2>
+            <h2 className="over-title">BACK-END DEVELOPER</h2>
           </div>
         </Tilt>
         
         <Tilt>
           <div className="box 3">
             <Image className="dev graph" src={GraphicDev} alt=""></Image>
-            <h2 className="over-title">GRAPHIC DESIGNER</h2>
+            <h2 className="over-title">UI/UX</h2>
           </div>
         </Tilt>
         
