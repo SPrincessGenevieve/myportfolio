@@ -53,7 +53,9 @@ export default function Experience() {
 
   return (
     <div className="exp-cont" ref={ref}>
+      
       <div className="exp-l1">
+        
         <h2 className="intro-skill" style={{ color: "#e66464" }}>
           MY JOURNEY SO FAR
         </h2>

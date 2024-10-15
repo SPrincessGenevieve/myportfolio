@@ -1,24 +1,8 @@
 import React from "react";
 import "./../Styles/Project.css";
-import etcmf from "./../Assets/etcmf.PNG";
-import mobile from "./../Assets/mob.png";
-import portfolio from "./../Assets/port.PNG";
-import missArt from "./../Assets/miss.png";
-import cdo from "./../Assets/cdo.PNG";
-import projects from "./../Assets/JSON/projects_info.json";
-import Image from "next/image";
-import next from "./../Assets/next.gif";
-import { motion } from "framer-motion";
-import LineDivide from "../Components/LineDivide";
-import LineDivideH from "../Components/LineDivideH";
-
-const imageMapping = {
-  "eTCMF - Web": etcmf,
-  "eTCMF - Mob": mobile,
-  Portfolio: portfolio,
-  MissArt: missArt,
-  CDORental: cdo,
-};
+import missArt from "./../Assets/miss.png"; // Assuming this is where your image is stored
+import Pot from "../Components/Pot";
+import projectData from './../Assets/JSON/projects_info.json'
 
 export default function Project() {
   return (
@@ -29,57 +13,39 @@ export default function Project() {
         </h2>
         <h1 className="over">PROJECTS</h1>
       </div>
-      <div className="element-cont">
-        <div className="image-box">
-          {projects.projects.map((project, index) => (
-            
-            <motion.div
-              initial={{ opacity: 0, translateY: 100 }}
-              whileInView={{ opacity: 1, translateY: 0 }}
-              transition={{
-                bounce: 0.4,
-                type: "spring",
-                duration: 0.5,
-                delay: 0.2,
-              }}
-              className="box-cont"
-              key={index}
-            >
-              <motion.div
-                initial={{ opacity: 0, translateX: 100 }}
-                whileInView={{ opacity: 1, translateX: 0 }}
-                transition={{
-                  bounce: 0.4,
-                  type: "spring",
-                  duration: 0.5,
-                  delay: 0.5,
-                }}
-                className="date-cont-pro"
-              >
-                <LineDivideH title={project.date}></LineDivideH>
-              </motion.div>
-              <div className="desc-cont-pro">
-                <div className="image-pro">
-                  <Image
-                    className="imge-project"
-                    style={{ borderRadius: 10 }}
-                    src={imageMapping[project.title] || abstract}
-                    alt={project.title}
-                  ></Image>
-                  <p className="title-project">{project.title}</p>
-                  <p className="subtitle-pro">{project.client}</p>
-                  <p className="subtitle-pro date">{project.date}</p>
-                  <p className="minisub-pro">
-                    {project.role || project["mini-title"]}
-                  </p>
-                  <p className="detail-pro">{project.details}</p>
-                  <p className="language">{project.language.join(", ")}</p>
-                </div>
-              </div>
-              
-            </motion.div>
-          ))}
+      
+      <div className="pot-cont-group">
+        <div className="p-pot">
+          <Pot
+          gitLink=""
+          webLink=""
+          title="Portfolio"
+          date="JANUARY 2023 – PRESENT"
+          desc="Visit my portfolio website to explore a curated collection of my work, showcasing a blend of web development projects and captivating graphic design pieces. Get a glimpse of my skills, creativity, and dedication to delivering impactful digital solutions."
+          classNameV2="port-bg"
+        />
         </div>
+        <div className="p-pot">
+          <Pot
+          gitLink=""
+          webLink=""
+          title="Portfolio"
+          date="JANUARY 2023 – PRESENT"
+          desc="Visit my portfolio website to explore a curated collection of my work, showcasing a blend of web development projects and captivating graphic design pieces. Get a glimpse of my skills, creativity, and dedication to delivering impactful digital solutions."
+          classNameV2="port-bg"
+        />
+        </div>
+        <div className="p-pot">
+          <Pot
+          gitLink=""
+          webLink=""
+          title="Portfolio"
+          date="JANUARY 2023 – PRESENT"
+          desc="Visit my portfolio website to explore a curated collection of my work, showcasing a blend of web development projects and captivating graphic design pieces. Get a glimpse of my skills, creativity, and dedication to delivering impactful digital solutions."
+          classNameV2="port-bg"
+        />
+        </div>
+     
       </div>
     </div>
   );

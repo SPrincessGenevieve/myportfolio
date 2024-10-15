@@ -1,0 +1,182 @@
+.project-detail-cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    scale: 1;
+    transition: 0.5s ease-in-out;
+    border-radius: 100%;
+}
+.circle-section{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 100%;
+}
+.c-one{
+    width: 150px;
+    height: 150px;
+    background-color: #FFABB6;
+    box-shadow: 0px 0px 2px 2px #b3515ea1;
+} 
+.c-two{
+    width: 130px;
+    height: 130px;
+    background-color:#FFC8CF;
+    box-shadow: 0px 0px 2px 2px #b3515ea1;
+} 
+.c-three{
+    display: flex;
+    width: 110px;
+    height: 110px;
+    background-color:#ffffff;
+    box-shadow: 0px 0px 2px 2px #b3515ea1;
+    
+}
+
+.body-cont-pot{
+    position: relative;
+}
+
+.lid{
+    background-color: #E6A3AD;
+    width: 370px;
+    height: 90px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.lid-body{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #E6A3AD;
+    width: 330px;
+    height: 400px;
+    position: absolute;
+    justify-content: space-between;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}  
+.web-title-cont{
+    width: 370px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pot-name{
+    color: #E6A3AD;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pot-details{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
+
+.github-icon{
+    margin-right: 10px;
+    color: white;
+}
+
+.eye-icon{
+    border: 1px solid white;
+    border-radius: 100%;
+    color: white;
+}
+
+.icon-cont-proj{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+  }
+
+.lid-pot{
+    position: relative;
+    width: 370px;
+    height: 90px;
+}
+.lid-pot-2{
+    position: absolute;
+    margin-top: 80px;
+    transition: margin-top 0.3s ease;
+}
+
+.project-detail-cont:hover .lid-pot-2 {
+    margin-top: 0;
+    transition: margin-top 0.3s ease;
+    
+}
+
+.css-icon, .next-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.figma-cont{
+    width: 17px;
+    height: 25px;
+    margin-left: 10px;
+}
+.react-icon{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.pot-date{
+    color: white;
+}
+
+.lan-cont{
+    margin-top: 30px;
+}
+
+
+@keyframes open-lid {
+    0% {
+        margin-top: 80px;;
+    }
+    100% {
+      margin-top: 0;
+    }
+  }
+
+  
+  .c-three:hover{
+    scale: 1.1;
+    animation: pulseAnimation 1s infinite ease-in-out;
+  }
+
+  @keyframes pulseAnimation {
+    0% {
+      box-shadow: 0 0 0 0 #d62626b3;
+      scale: 1;
+    }
+  
+    70% {
+      box-shadow: 0 0 0 10px #ff151500;
+      scale: 1.05;
+    }
+  
+    100% {
+      box-shadow: 0 0 0 0 #ff6d6d00;
+      scale: 1;
+    }
+  }
+  
+  

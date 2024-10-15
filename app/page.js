@@ -26,10 +26,7 @@ export default function App() {
   const educationOffset = windowWidth <= 350 ? 3.5 : windowWidth <= 801 ? 3 : windowWidth <= 1206 ? 3 : 2.5;
   const certOffset = windowWidth <= 1206 ? 4.2 : 3.5;
   const expOffset =   windowWidth <= 801 ? 6.5 :  windowWidth <= 1206 ? 6 : 5;
-  const skillOffset =  windowWidth <= 801 ? 8 : windowWidth <= 915 ? 7.5 :  windowWidth <= 1206 ? 7 : 6;
-  const projOffset =   windowWidth <= 816 ? 6 : 7;
 
-  const pageOffset = windowWidth <= 376 ? 13 : windowWidth <= 1245 ? 12 : 10;
 
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
@@ -97,7 +94,7 @@ export default function App() {
               </div>
               }
             </div>
-        <Parallax pages={pageOffset}>
+        <Parallax pages={10}>
           <ParallaxLayer offset={0} style={{}}>
             <Home onClick={handlePopupOpen}></Home>
             
@@ -120,35 +117,13 @@ export default function App() {
             <Experience></Experience>
           </ParallaxLayer>
 
-          <ParallaxLayer offset={skillOffset} style={{}}>
+          {/* <ParallaxLayer offset={skillOffset} style={{}}>
             <Skills></Skills>
-          </ParallaxLayer>
+          </ParallaxLayer> */}
 
-          <ParallaxLayer offset={projOffset}>
+          <ParallaxLayer offset={7} factor={3}>
             <Project></Project>
           </ParallaxLayer>
-
-          
-          {/* <ParallaxLayer
-            offset={12}
-            speed={1}
-            style={{position:"relative", backgroundColor:""}}
-          >
-            <div className="layer-cont">
-              <Image className="Layer A" src={L1}></Image>
-              <Image className="Layer B" src={L2}></Image>
-              <Image className="Layer C" src={L3}></Image>
-              <Image className="Layer D" src={L4}></Image>
-              <Image className="Layer E" src={L5}></Image>
-            </div>
-          </ParallaxLayer>
-          <ParallaxLayer 
-            style={{display: "flex", alignItems:"center"}} 
-            offset={12}
-            speed={1}
-            >
-              <ContactMe ref={contactMeRef}/>
-          </ParallaxLayer> */}
         </Parallax>
       </div>
     </main>

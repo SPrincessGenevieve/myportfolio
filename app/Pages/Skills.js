@@ -38,7 +38,7 @@ export default function Skills() {
   return (
     <div className="skills-cont">
       <div className="skill-l1">
-        <h2 className="intro-skill" style={{ color: "#e66464" }}>TECHNOLOGIES I USE</h2>
+        <h2 className="intro-skill" style={{ color: "#fff" }}>TECHNOLOGIES I USE</h2>
         <h1 className="skill">SKILLS & EXPERTISE</h1>
       </div>
       {skillsData.skills.map((skill, index) => (
