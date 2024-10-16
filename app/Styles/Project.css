@@ -21,6 +21,13 @@
   text-align: left;
 }
 
+.pot-cont-group{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 10%;
+}
+
 .box-cont {
   width: 100%;
   height: auto;
@@ -49,12 +56,23 @@
   background-repeat: no-repeat;
   background-position: 1px;
 }
-.pot-cont-group{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.web-bg{
+  background-image: url('./../Assets/etcmf.PNG');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 1px;
 }
+.mob-bg{
+  background-image: url('./../Assets/mob.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 1px;
+}
+
 .p-pot{
   padding: 5px;
-  height: 600px;
+}
+
+.visibilityNext, .visibilityMindee{
+  display: none;
 }
